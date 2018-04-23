@@ -10,7 +10,7 @@ jobs:
       - checkout
       - run:
           name: Install Japanese font
-          command: sudo apt-get install fonts-ipafont-gothic fonts-ipafont-mincho
+          command: apt-get install fonts-ipafont-gothic fonts-ipafont-mincho
 
       - run: yarn install
 
